@@ -53,7 +53,7 @@ PRODUCTS.forEach(
   (product, index, array) => (array[index] = `${product.toUpperCase()}`)
 );
 console.log(PRODUCTS);
-
+12;
 PRODUCTS.forEach((item) => {
   const liDOM = document.createElement('li');
   liDOM.innerHTML = item;
