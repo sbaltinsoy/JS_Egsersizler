@@ -29,3 +29,33 @@ while (userName == '') {
   userName = prompt('Kullanici Adinizi Giriniz : ');
   console.log(userName);
 }
+
+const PRODUCTS = [
+  'Laptop',
+  'Phone',
+  'Speaker',
+  'Desktop PC',
+  'Server',
+  'Mouse',
+  'Keyboard',
+];
+
+//PRODUCTS.forEach((product, index, array) => console.log(product, index, array));
+//PRODUCTS.forEach((product) => console.log(product));
+//PRODUCTS.forEach((product, index, array) => console.log(array[index]));
+
+/*PRODUCTS.forEach((product, index, array) =>
+  console.log((array[index] = product + 'TR'))
+);
+*/
+
+PRODUCTS.forEach(
+  (product, index, array) => (array[index] = `${product.toUpperCase()}`)
+);
+console.log(PRODUCTS);
+
+PRODUCTS.forEach((item) => {
+  const liDOM = document.createElement('li');
+  liDOM.innerHTML = item;
+  userListDOM.appendChild(liDOM);
+});
