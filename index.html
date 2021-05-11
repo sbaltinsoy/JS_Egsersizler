@@ -42,46 +42,66 @@
     </ul>
     -->
 
-    <!-- 015 - 016 - 017 - 018 - Kosullarla Calismak -->
+    <!-- localStorage
+
     <h2 id="info"></h2>
 
     <h3 id="counter">0</h3>
     <button id="increase">Arttir</button>
     <button id="decrease">Azalt</button>
+
+    -->
     <!-- 023 - 026 - js counter 
     <h3 id="counter">100</h3>
     <button id="increase">Arttir</button>
     <button id="decrease">Azalt</button>
     -->
 
-    <!-- 027 - 029 form islemleri ve listeleme 
     <div class="container mt-5">
-        <div class="row">
-            <div class="col-sm-8 offset-sm-2">
-                <form id="userForm">
-                    <div class="mb-3">
-                        <label class="form-label" for="username">Kullanici Adi</label>
-                        <input class="form-control" type="text" name="username" id="username">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label" for="score">Not Bilgisi</label>
-                        <input class="form-control" type="number" name="score" id="score">
-                    </div>
-                    <div class="mb-3">
-
-                        <button type="reset" class="btn btn-danger">Sifirla</button>
-                        <button type="submit" class="btn btn-success">Gonder</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-sm-8 offset-sm-2 mt-4">
-                <ul class="list-group" id="userList">
-                    
-                  </ul>
-            </div>
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+          <form id="userForm" method="GET">
+            <input type="number" name="score" id="score" />
+            <button type="submit" class="btn btn-success">Gonder</button>
+          </form>
         </div>
+      </div>
     </div>
-    -->
+
+    <!--
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+          <form id="userForm" method="POST">
+            <div class="mb-3">
+              <label class="form-label" for="username">Kullanici Adi</label>
+              <input
+                class="form-control"
+                type="text"
+                name="username"
+                id="username"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="score">Not Bilgisi</label>
+              <input
+                class="form-control"
+                type="number"
+                name="score"
+                id="score"
+              />
+            </div>
+            <div class="mb-3">
+              <button type="reset" class="btn btn-danger">Sifirla</button>
+              <button type="submit" class="btn btn-success">Gonder</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-8 offset-sm-2 mt-4">
+          <ul class="list-group" id="userList"></ul>
+        </div>
+      </div>
+    </div>-->
 
     <!-- 033-for-dongusu-kullanimi -->
     <ul class="list-group" id="userList"></ul>
@@ -140,6 +160,6 @@
     <!-- <script src="js/041-object-icinde-metot-nasil-ekleriz.js"></script> -->
     <!-- <script src="js/042-09-042-object-ve-array-destructuring-nasil-kullanilir.js"></script> -->
     <!-- <script src="js/043-hata-yonetimi-icin-try-catch-kullanimi.js"></script> -->
-    <script src="js/deneme.js"></script>
+    <script src="js/formSubmit.js"></script>
   </body>
 </html>
