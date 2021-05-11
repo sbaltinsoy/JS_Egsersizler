@@ -1,0 +1,8 @@
+{
+  "userName": "fakeUser",
+  "passaword": 1234,
+  "serverIP": "127.0.0.1",
+  "serverName": true,
+  "isAuth": true,
+  "IDs": [1, 2, 3, 4, 5]
+}
